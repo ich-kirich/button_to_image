@@ -1,0 +1,19 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.desert {
+    position: relative;
+    width: fit-content;
+}
+.expand {
+    position: absolute;
+     width: 30px;
+     height: 30px;
+     right: 15px;
+     bottom: 15px;
+     padding: 5px;
+     background: rgba(255, 255, 255, 0.5) url(../img/expand.png) 50% 50% no-repeat;
+     background-size: 30px;
+     border: 1px solid #333;
+}
